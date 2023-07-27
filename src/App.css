@@ -35,4 +35,110 @@
   to {
     transform: rotate(360deg);
   }
+
+  
 }
+
+.hero {
+  position: relative;
+  height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-title {
+  position: absolute; /* Position the h1 element absolutely */
+  top: 30%; /* Align it vertically in the middle */
+  left: 50%; /* Align it horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center it perfectly */
+  z-index: 1; /* Bring the h1 element above the image */
+  color: #111111; /* Title text color */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 2.5s ease-in-out;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+
+.product-description {
+  font-size: 18px;
+  margin-right: 20px; 
+  color: #555;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.tech-graphic-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tech-graphic-image {
+  width: 100%;
+  height: auto;
+}
+
+.image-title {
+  position: absolute; /* Position the h1 element absolutely */
+  top: 150%; /* Align it vertically in the middle */
+  left: 50%; /* Align it horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center it perfectly */
+  z-index: 1; /* Bring the h1 element above the image */
+  color: #fff; /* Title text color */
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 2.5s ease-in-out;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.show-title {
+  opacity: 1;
+}
+
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff; /* Set the desired background color when the navbar is sticky */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a subtle effect */
+  z-index: 1000; /* Ensure the navbar appears above other elements */
+}
+
