@@ -28,7 +28,7 @@ const Navbar = () => {
         <nav id="navbar" className={`border-gray-200 bg-gray-50 dark:bg-white dark:border-gray-700 ${isSticky ? 'sticky-navbar' : ''}`}>
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center">
-                <img src={googleLogo} class="h-20 mr-3" alt="Flowbite Logo" />
+                <img src={googleLogo} class="h-20 mr-3" alt="Google Logo" />
             </a>
             <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
@@ -45,10 +45,10 @@ const Navbar = () => {
                         <a href="#techSpecsComponent" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 hover:text-red-500 dark:hover:text-red-500 md:hover:bg-transparent hover:animate-bounce">Tech Specs</a>
                     </li>
                     <li>
-                        <a href="#techGraphicsComponent" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 hover:text-yellow-300 dark:hover:text-yellow-300 md:hover:bg-transparent hover:animate-bounce">Privacy</a>
+                        <a href="https://policies.google.com/privacy?hl=en-CA&fg=1" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 hover:text-yellow-300 dark:hover:text-yellow-300 md:hover:bg-transparent hover:animate-bounce">Privacy</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 hover:text-green-500 dark:hover:text-green-500 md:hover:bg-transparent hover:animate-bounce">Contact</a>
+                        <a href="http://robertoborges.ca" class="block py-2 pl-3 pr-4 text-gray-900 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 hover:text-green-500 dark:hover:text-green-500 md:hover:bg-transparent hover:animate-bounce">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -1,42 +1,28 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 const TechSpecs = () => {
 
-    useEffect(() => {
-        const imageTitle = document.querySelector('.image-title');
-    
-        const options = {
-          root: null,
-          rootMargin: '0px',
-          threshold: 0.5, // Adjust this threshold value as needed
-        };
-    
-        const callback = (entries, observer) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('show-title');
-              observer.unobserve(entry.target);
-            }
-          });
-        };
-    
-        const observer = new IntersectionObserver(callback, options);
-        observer.observe(imageTitle);
-    
-        return () => {
-          observer.disconnect();
-        };
-      }, []);
-    
-
   return (
-    <div id="techSpecsComponent"className="container mx-auto flex p-4">
-      <div className="w-1/2 pr-6">
-        <h1 className="text-3xl font-bold mb-4 text-gray-500">Tech Specs</h1>
-      </div>
-      <div className="w-1/2 pl-8">
-        <ul className="pl-0">
-          <li className="mb-4 flex flex-col text-gray-500">
+    <div id="techSpecsComponent" className={`container mx-auto flex p-4`}>
+          <div className="w-1/2 pr-6">
+            <h1 className="text-3xl font-bold mb-4 text-gray-500">Tech Specs</h1>
+            <div>
+              <iframe
+                className='pt-4'
+                width="560"
+                type="align=center"
+                height="315"
+                src="https://www.youtube.com/embed/RW9-8ih147A"
+                title="Tech Video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div className="w-1/2 pl-8">
+            <ul className="pl-0">
+            <li className="mb-4 flex flex-col text-gray-500">
             <strong className="text-gray-500 mb-2">Camera</strong>
             <span>
               6.5-megapixel camera with 127-degree wide field of view and auto-framing, Face Match technology, Quick Gestures, mic + camera switch
@@ -96,8 +82,9 @@ const TechSpecs = () => {
               Android, iOS
             </span>
           </li>
-        </ul>
-      </div>
+            </ul>
+          </div>
+      {}
     </div>
   );
 };

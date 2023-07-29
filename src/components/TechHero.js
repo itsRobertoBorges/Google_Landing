@@ -2,9 +2,8 @@ import React, { useEffect } from 'react';
 import '../App.css';
 
 const TechHero = () => {
-
   useEffect(() => {
-    const productTitle = document.querySelector('.product-title');
+    const productTitles = document.querySelectorAll('.product-title');
 
     const options = {
       root: null,
@@ -22,7 +21,7 @@ const TechHero = () => {
     };
 
     const observer = new IntersectionObserver(callback, options);
-    observer.observe(productTitle);
+    productTitles.forEach((title) => observer.observe(title));
 
     return () => {
       observer.disconnect();
@@ -30,12 +29,12 @@ const TechHero = () => {
   }, []);
 
   return (
-    <div id="TechHeroComponent"className="hero">
+    <div id="TechHeroComponent" className="hero">
       <div className="hero-content">
         <div className="product-info">
           <div className="product-description">
-            <h1 className="product-title">Your Home's Smart Makeover.</h1>
-            <button className="cta-button font-bold">Learn More</button>
+            <h1 className="product-title">Your Home's Smart Makeover.<br/>Google Nest Hub Max</h1>
+            <button className="cta-button font-bold mt-5">Learn More</button>
           </div>
         </div>
       </div>
