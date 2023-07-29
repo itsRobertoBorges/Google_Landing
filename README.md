@@ -15,7 +15,7 @@ Install this project with npm
     
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Client:** React, TailwindCSS
 
 **Server:** Node, Express
 
