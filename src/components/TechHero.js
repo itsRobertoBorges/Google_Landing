@@ -8,7 +8,7 @@ const TechHero = () => {
     const options = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.5, // Adjust this threshold value as needed
+      threshold: 0.5,
     };
 
     const callback = (entries, observer) => {
@@ -33,10 +33,16 @@ const TechHero = () => {
       <div className="hero-content">
         <div className="product-info">
           <div className="product-description">
-            <h1 className="product-title">Your Home's Smart Makeover.<br/>Google Nest Hub Max</h1>
-            <a href='https://store.google.com/config/google_nest_hub_max?hl=en-US'>
-            <button className="cta-button font-bold mt-5">Buy Now</button>
-            </a>
+            <h1 className="product-title text-center lg:text-left text-4xl lg:text-5xl xl:text-6xl font-bold mb-6"> {/* Added mb-6 for margin-bottom */}
+              Your Home's Smart Makeover.<br />Google Nest Hub Max
+            </h1>
+            <div className="flex justify-center lg:justify-start mt-5">
+              <a href="https://store.google.com/config/google_nest_hub_max?hl=en-US">
+                <button className="cta-button font-bold text-lg lg:text-xl px-6 py-3 mt-40">
+                  Buy Now
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -45,3 +51,4 @@ const TechHero = () => {
 };
 
 export default TechHero;
+
