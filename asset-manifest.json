@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Google-Landing/static/css/main.28eb10dd.css",
-    "main.js": "/Google-Landing/static/js/main.a11d9bf2.js",
-    "static/media/googleGraphic2.png": "/Google-Landing/static/media/googleGraphic2.e8f7aa2a0c60b0ac1fcb.png",
-    "static/media/googleGraphic.jpg": "/Google-Landing/static/media/googleGraphic.1e4f985f4ef4370a1204.jpg",
-    "static/media/googleLogo.png": "/Google-Landing/static/media/googleLogo.0b57ef3acadd4b057724.png",
-    "index.html": "/Google-Landing/index.html",
-    "main.28eb10dd.css.map": "/Google-Landing/static/css/main.28eb10dd.css.map",
-    "main.a11d9bf2.js.map": "/Google-Landing/static/js/main.a11d9bf2.js.map"
+    "main.css": "/Google_Landing/static/css/main.28eb10dd.css",
+    "main.js": "/Google_Landing/static/js/main.b773a11d.js",
+    "static/media/googleGraphic2.png": "/Google_Landing/static/media/googleGraphic2.e8f7aa2a0c60b0ac1fcb.png",
+    "static/media/googleGraphic.jpg": "/Google_Landing/static/media/googleGraphic.1e4f985f4ef4370a1204.jpg",
+    "static/media/googleLogo.png": "/Google_Landing/static/media/googleLogo.0b57ef3acadd4b057724.png",
+    "index.html": "/Google_Landing/index.html",
+    "main.28eb10dd.css.map": "/Google_Landing/static/css/main.28eb10dd.css.map",
+    "main.b773a11d.js.map": "/Google_Landing/static/js/main.b773a11d.js.map"
   },
   "entrypoints": [
     "static/css/main.28eb10dd.css",
-    "static/js/main.a11d9bf2.js"
+    "static/js/main.b773a11d.js"
   ]
 }
