@@ -34,7 +34,9 @@ const TechHero = () => {
         <div className="product-info">
           <div className="product-description">
             <h1 className="product-title">Your Home's Smart Makeover.<br/>Google Nest Hub Max</h1>
-            <button className="cta-button font-bold mt-5">Learn More</button>
+            <a href='https://store.google.com/config/google_nest_hub_max?hl=en-US'>
+            <button className="cta-button font-bold mt-5">Buy Now</button>
+            </a>
           </div>
         </div>
       </div>
